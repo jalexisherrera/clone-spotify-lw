@@ -14,7 +14,7 @@ const Sidebar = () => {
         <IconLink isActive ActiveIcon={GoHomeFill} InactiveIcon={GoHome} text='Home' />
         <IconLink ActiveIcon={BiSolidSearch} InactiveIcon={GoSearch} text='Search' />
       </div>
-      <div className='container-card flex flex-col gap-4 px-2 py-4'>
+      <div className='container-card flex flex-col gap-4 px-2 py-4 h-full'>
         <div className='flex items-center justify-between px-3g'>
           <IconLink ActiveIcon={BiLibrary} InactiveIcon={BiLibrary} text='Your Library' />
           <div className='text-xl rounded-full text-mid-gray hover:text-white cursor-pointer hover:bg-black p-1'>

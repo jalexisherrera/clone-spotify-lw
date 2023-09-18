@@ -9,3 +9,7 @@
 .container-card {
   @apply bg-spotify-gray rounded-lg;
 }
+
+.wide-text {
+  @apply text-mid-gray font-semibold hover:text-white hover:cursor-pointer;
+}
