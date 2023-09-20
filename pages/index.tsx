@@ -1,6 +1,7 @@
 import { Navbar } from '@/components/Navbar';
 import { PlaylistContainer } from '@/components/PlaylistContainer';
 import { Sidebar } from '@/components/Sidebar';
+import { playlists } from '@/datos';
 
 const Home = () => {
   return (
@@ -10,8 +11,8 @@ const Home = () => {
         <div className='container-card flex flex-col h-full'>
           <Navbar />
           <div className='bg-gradient-to-t from-spotify-light-black to-spotify-light-black-3 px-4 h-full flex flex-col gap-7'>
-            <PlaylistContainer name={'Spotify Playlists'} />
-            <PlaylistContainer name={'Focus'} />
+            <PlaylistContainer data={playlists.playlists} name={'Spotify Playlists'} />
+            <PlaylistContainer data={playlists.focus} name={'Focus'} />
           </div>
         </div>
       </main>
