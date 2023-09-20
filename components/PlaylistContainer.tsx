@@ -11,7 +11,12 @@ const PlaylistContainer = ({ name }: PlaylistContainerProps) => {
         <span className='text-white text-2xl font-bold'>{name}</span>
         <span>Show all</span>
       </div>
-      <div className='flex'>
+      <div className='flex gap-4'>
+        <PlaylistCard
+          image='/images/todays-top-hits.jpg'
+          title='Todays top hits'
+          description='Jung Kook is on top of the Hottest 50!'
+        />
         <PlaylistCard
           image='/images/todays-top-hits.jpg'
           title='Todays top hits'
