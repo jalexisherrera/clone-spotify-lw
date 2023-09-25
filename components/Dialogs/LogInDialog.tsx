@@ -1,6 +1,6 @@
 import { Dialog, DialogContent, DialogTitle } from '@mui/material';
 import { Dispatch, SetStateAction } from 'react';
-import { Button } from '../Button';
+import { Button } from '@/component/Button';
 
 interface LogInDialogProps {
   isOpen: boolean;
